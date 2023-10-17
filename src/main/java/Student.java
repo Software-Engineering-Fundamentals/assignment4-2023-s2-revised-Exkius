@@ -1,3 +1,4 @@
+package rmit;
 
 /**
  * Class to hold information about a student
@@ -47,8 +48,5 @@ public class Student {
     public void setNumberOfCourses(int numberOfCourses) {
         this.numberOfCourses = numberOfCourses;
     }
-
-
-    
 
 }
