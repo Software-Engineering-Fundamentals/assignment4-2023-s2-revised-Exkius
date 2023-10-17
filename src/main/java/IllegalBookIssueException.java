@@ -1,4 +1,4 @@
-
+package rmit;
 
 /**
  * Exception when same book is reissues
