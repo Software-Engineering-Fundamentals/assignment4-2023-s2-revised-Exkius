@@ -1,3 +1,4 @@
+package rmit;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -62,11 +63,11 @@ public class Book {
         this.demand = demand;
     }
 
-    public int getID() {
+    public int getBookID() {
         return this.ID;
     }
 
-    public void setID(int ID) {
+    public void setBookID(int ID) {
         this.ID = ID;
     }
     
@@ -82,7 +83,7 @@ public class Book {
     }
 
 
-    public int days() {
+    public int getDays() {
         return days;
     }
 
@@ -94,11 +95,7 @@ public class Book {
         return status;
     }
 
-    public void setDemand(boolean status) {
+    public void setStatus(boolean status) {
         this.status = status;
     }
-
-
-
-
 }
